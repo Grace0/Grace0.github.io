@@ -1,29 +1,30 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
-import HomepageImage from './components/HomepageImage'
-import Footer from './components/Footer'
+import Quotes from './Quotes';
+import Rundown from './Rundown';
+import { Switch, Route, Link } from 'react-router-dom';
 
-function App() {
+class App extends Component {
+  render() {
   return (
     <div className="App">
       <header className="App-header">
-        <HomepageImage />
-        <p>
-          Grace Kwak
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <h1 className="App-title">The Grace Kwak App</h1>
+      <nav>
+   <ul>
+     <li><Link to='/quotes'>Quotes</Link></li>
+     <li><Link to='/rundown'>Rundown</Link></li>
+   </ul>
+ </nav>
       </header>
-        <Footer />
+      <Switch>
+        <Route path='/quotes' component={Quotes}/>
+        <Route path='/rundown' component={Rundown}/>
+      </Switch>
     </div>
 
   );
+}
 }
 
 export default App;
