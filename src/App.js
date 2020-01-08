@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
+import { Switch, Route, Link } from 'react-router-dom';
 import './App.css';
 import Quotes from './Quotes';
 import Rundown from './Rundown';
 import Plans from './Plans';
-import { Switch, Route, Link } from 'react-router-dom';
+import Footer from './Footer';
 
 class App extends Component {
   render() {
@@ -29,6 +30,7 @@ class App extends Component {
         <Route path='/rundown' component={Rundown}/>
         <Route path='/plans' component={Plans}/>
       </Switch>
+      <Footer />
     </div>
   );
 }

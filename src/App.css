@@ -38,24 +38,9 @@ nav li a {
   text-decoration: none;
 }
 
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-  font-size: 15px;
-  padding: 1rem;
-}
-
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-}
-
-.table {
-	display: table;   /* Allow the centering to work */
-	margin: 0 auto;
 }
