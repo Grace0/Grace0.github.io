@@ -5,19 +5,12 @@ class Footer extends Component {
   render() {
     return (
       <div className="footer">
-        <div class="table">
-          <ul>
-            <li><a href="mailto:grace.kwak25@gmail.com">
-            <i class="fas fa-envelope-square"></i>
-            </a></li>
-            <li><a href="https://www.linkedin.com/in/grace-j-kwak/">
-            <i class="fab fa-linkedin"></i>
-            </a></li>
-            <li><a href="https://medium.com/@gracekwak">
-            <i class="fab fa-medium"></i>
-            </a></li>
-          </ul>
-        </div>
+      <div class="tile_div">
+          <a href="mailto:grace.kwak25@gmail.com"> <img border="0" alt="gmail" src={ require('./gmail.png')} style={{width: 50}} /> </a>
+          <a href="https://www.linkedin.com/in/grace-j-kwak/"> <img border="0" alt="linkedin" src={ require('./linkedin.png')} style={{width: 50}} /> </a>
+          <a href="https://medium.com/@gracekwak" class="last"> <img border="0" alt="medium" src={ require('./medium.png')} style={{width: 50}} /> </a>
+          <div class="clear"></div>
+      </div>
       </div>
     );
   }
