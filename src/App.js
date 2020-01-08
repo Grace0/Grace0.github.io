@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import './App.css';
-import Quotes from './Quotes';
-import Rundown from './Rundown';
-import Plans from './Plans';
-import Footer from './Footer';
+import Quotes from './components/Quotes';
+import Rundown from './components/Rundown';
+import Plans from './components/Plans';
+import Footer from './components/Footer';
 
 class App extends Component {
   render() {
@@ -13,7 +13,7 @@ class App extends Component {
       <header className="App-header">
       <h1 className="App-title">Erin Lee</h1>
         <p>
-          <img src={ require('./drawing-transparent.png') } style={{width: 200}} />
+          <img src={ require('./img/drawing-transparent.png') } style={{width: 200}} />
         </p>
         <p>
       <nav className="navbar">
