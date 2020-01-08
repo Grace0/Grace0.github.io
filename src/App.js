@@ -5,6 +5,7 @@ import Quotes from './components/Quotes';
 import Rundown from './components/Rundown';
 import Plans from './components/Plans';
 import Footer from './components/Footer';
+import Homepage from './components/Homepage';
 
 class App extends Component {
   render() {
@@ -13,7 +14,7 @@ class App extends Component {
       <header className="App-header">
       <h1 className="App-title">Erin Lee</h1>
         <p>
-          <img src={ require('./img/drawing-transparent.png') } style={{width: 200}} />
+          <li><Link to='/home'><img src={ require('./img/drawing-transparent.png') } style={{width: 200}} /></Link></li>
         </p>
         <p>
       <nav className="navbar">
@@ -29,6 +30,7 @@ class App extends Component {
         <Route path='/quotes' component={Quotes}/>
         <Route path='/rundown' component={Rundown}/>
         <Route path='/plans' component={Plans}/>
+        <Route path='/home' component={Homepage}/>
       </Switch>
       <Footer />
     </div>
