@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route, Link } from 'react-router-dom';
 import './App.css';
+import './unsemantic-grid.css'
 import Quotes from './components/Quotes';
 import Rundown from './components/Rundown';
 import Plans from './components/Plans';
@@ -9,33 +10,33 @@ import Homepage from './components/Homepage';
 
 class App extends Component {
   render() {
-  return (
-    <div className="App">
+    return (
+      <div className="App">
       <header className="App-header">
-      <h1 className="App-title">Erin Lee</h1>
-        <p>
-          <li><Link to='/home'><img src={ require('./img/drawing-transparent.png') } style={{width: 200}} /></Link></li>
-        </p>
-        <p>
-      <nav className="navbar">
-        <ul>
-          <li><Link to='/quotes'>Quotes</Link></li>
-          <li><Link to='/rundown'>Rundown</Link></li>
-          <li><Link to='/plans'>Plans</Link></li>
-        </ul>
-      </nav>
+
+      <p>
+
+
+      <main class="grid-container home">
+       <div class='grid-100 mobile-grid-100 tablet-grid-100'>
+       <h1> <img src={ require('./img/drawing-transparent.png') } style={{width: 200}} /> Hello! I'm Grace Kwak. Here's what Im <Link to='/quotes'>making</Link>,
+          <Link style={{ textDecoration: 'none', color: 'FDBD74' }} to='/rundown'> reading</Link>, and
+          <Link to='/plans'> working on</Link>. </h1>
+       </div>
+      </main>
+
       </p>
       </header>
       <Switch>
-        <Route path='/quotes' component={Quotes}/>
-        <Route path='/rundown' component={Rundown}/>
-        <Route path='/plans' component={Plans}/>
-        <Route path='/home' component={Homepage}/>
+      <Route path='/quotes' component={Quotes}/>
+      <Route path='/rundown' component={Rundown}/>
+      <Route path='/plans' component={Plans}/>
+      <Route path='/home' component={Homepage}/>
       </Switch>
       <Footer />
-    </div>
-  );
-}
+      </div>
+    );
+  }
 }
 
 export default App;
