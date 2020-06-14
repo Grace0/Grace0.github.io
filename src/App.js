@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Switch, Route, Link } from 'react-router-dom';
+import { Switch, Route, NavLink } from 'react-router-dom';
 import './App.css';
 import './unsemantic-grid.css'
 import Quotes from './components/Quotes';
@@ -19,9 +19,10 @@ class App extends Component {
 
       <main class="grid-container home">
        <div class='grid-100 mobile-grid-100 tablet-grid-100'>
-       <h1> <img src={ require('./img/drawing-transparent.png') } style={{width: 200}} /> Hello! I'm Grace Kwak. Here's what Im <Link to='/quotes'>making</Link>,
-          <Link style={{ textDecoration: 'none', color: 'FDBD74' }} to='/rundown'> reading</Link>, and
-          <Link to='/plans'> working on</Link>. </h1>
+       <h1> <img src={ require('./img/drawing-transparent.png') } style={{width: 200}} /> Hello! I'm Grace Kwak. Here's what I am
+          <NavLink to='/quotes' className="quotes"> making</NavLink>,
+          <NavLink to='/rundown' className="rundown"> reading</NavLink>, and
+          <NavLink to='/plans' className="plans"> working on</NavLink>. </h1>
        </div>
       </main>
 
