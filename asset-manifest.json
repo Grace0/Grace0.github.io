@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/fun/static/css/main.3d7e5184.chunk.css",
-    "main.js": "/fun/static/js/main.9016a6d9.chunk.js",
-    "main.js.map": "/fun/static/js/main.9016a6d9.chunk.js.map",
-    "runtime-main.js": "/fun/static/js/runtime-main.d5b5708c.js",
-    "runtime-main.js.map": "/fun/static/js/runtime-main.d5b5708c.js.map",
-    "static/js/2.11e60738.chunk.js": "/fun/static/js/2.11e60738.chunk.js",
-    "static/js/2.11e60738.chunk.js.map": "/fun/static/js/2.11e60738.chunk.js.map",
+    "main.css": "/fun/static/css/main.70740b1a.chunk.css",
+    "main.js": "/fun/static/js/main.66ac1c45.chunk.js",
+    "main.js.map": "/fun/static/js/main.66ac1c45.chunk.js.map",
+    "runtime-main.js": "/fun/static/js/runtime-main.a5600fb4.js",
+    "runtime-main.js.map": "/fun/static/js/runtime-main.a5600fb4.js.map",
+    "static/js/2.14912e51.chunk.js": "/fun/static/js/2.14912e51.chunk.js",
+    "static/js/2.14912e51.chunk.js.map": "/fun/static/js/2.14912e51.chunk.js.map",
     "index.html": "/fun/index.html",
-    "precache-manifest.47e51df749ebdbc4a9732585133df6cf.js": "/fun/precache-manifest.47e51df749ebdbc4a9732585133df6cf.js",
+    "precache-manifest.6a4eff7a95e38cbac87807f1ed8d4c95.js": "/fun/precache-manifest.6a4eff7a95e38cbac87807f1ed8d4c95.js",
     "service-worker.js": "/fun/service-worker.js",
-    "static/css/main.3d7e5184.chunk.css.map": "/fun/static/css/main.3d7e5184.chunk.css.map",
-    "static/js/2.11e60738.chunk.js.LICENSE": "/fun/static/js/2.11e60738.chunk.js.LICENSE",
+    "static/css/main.70740b1a.chunk.css.map": "/fun/static/css/main.70740b1a.chunk.css.map",
+    "static/js/2.14912e51.chunk.js.LICENSE": "/fun/static/js/2.14912e51.chunk.js.LICENSE",
     "static/media/drawing-transparent.png": "/fun/static/media/drawing-transparent.483d638d.png",
+    "static/media/github.png": "/fun/static/media/github.83e5dc8c.png",
     "static/media/gmail.png": "/fun/static/media/gmail.131920bb.png",
-    "static/media/linkedin.png": "/fun/static/media/linkedin.4cdfff6a.png",
-    "static/media/medium.png": "/fun/static/media/medium.511d134b.png"
+    "static/media/linkedin.png": "/fun/static/media/linkedin.4cdfff6a.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5b5708c.js",
-    "static/js/2.11e60738.chunk.js",
-    "static/css/main.3d7e5184.chunk.css",
-    "static/js/main.9016a6d9.chunk.js"
+    "static/js/runtime-main.a5600fb4.js",
+    "static/js/2.14912e51.chunk.js",
+    "static/css/main.70740b1a.chunk.css",
+    "static/js/main.66ac1c45.chunk.js"
   ]
 }
