@@ -14,21 +14,14 @@ class App extends Component {
       <div className="App">
       <header className="App-header">
 
-      <p>
-
       <main class="grid-container home">
-       <div class='grid-100 mobile-grid-100 tablet-grid-100'>
-       <h1> Hello there! I'm Grace, a first-year Electrical Engineering student at UCLA. I'm eager to demystify the theories behind hardware in order to build products with a high social impact.
-
-       <p> Here is my
+       <h1> Hello there! I'm Grace, a first-year Electrical Engineering student at UCLA. I'm eager to demystify the theories behind hardware and build products with a high social impact. Here's my'
           <NavLink to='/quotes' className="quotes"> resume </NavLink> and
-          <NavLink to='/rundown' className="rundown"> portfolio</NavLink> thus far, as well as a snapshot of my current
-          <NavLink to='/plans' className="plans"> aspirations</NavLink>. </p></h1>
-
-       </div>
+          <NavLink to='/rundown' className="rundown"> portfolio</NavLink>, as well as a snapshot of my current
+          <NavLink to='/plans' className="plans"> aspirations</NavLink>. </h1>
       </main>
 
-      </p>
+
       </header>
       <Switch>
       <Route path='/quotes' component={Quotes}/>

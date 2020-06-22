@@ -7,10 +7,6 @@ body {
 	line-height: 1.5em;
 }
 
-main {
-	margin: 0px auto;
-}
-
 h1, h2, h3 {
 	font-family: 'Droid Serif', serif;
 	letter-spacing: 0.5px;
@@ -18,13 +14,12 @@ h1, h2, h3 {
 }
 
 main.home h1 {
-	margin: 4em 0.6em;
-	padding: 40px 0px 50px 0px;
-	font-weight: 500;
 	line-height: 1.8em;
-	border-top: 0px #323031 solid;
-	border-bottom: 0px #323031 solid;
 	color: #323031;
+	margin-top: -100px;
+	position: absolute;
+	top: 30%;
+	width: 60%;
 }
 
 h2 {
