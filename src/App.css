@@ -1,42 +1,45 @@
-@import url('https://fonts.googleapis.com/css?family=Droid+Serif');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+.grid-container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+body {
+  font-size: 14px;
+}
+
+main {
+  width: 60%;
+}
 
 body {
 	background-color: #F5F5F9;
-	font-family: 'Droid Serif', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	line-height: 1.5em;
 }
 
 h1, h2, h3 {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Open Sans', serif;
 	letter-spacing: 0.5px;
 	font-weight: normal;
 }
 
 main.home h1 {
 	line-height: 1.8em;
+	padding-top: 40px;
+	padding-bottom: 40px;
 	color: #323031;
 	margin-top: -100px;
 	position: absolute;
 	top: 30%;
 	width: 60%;
-}
-
-h2 {
-	font-size: 2em;
-	margin: 1.2em 0em 1.4em 0em;
-	line-height: 1.6em;
-}
-
-h3 {
-	font-size: 1.4em;
-	margin: 2em 0em 1em 0em;
-}
-
-h4 {
-	font-size: 1.2em;
-	margin: 2.2em 0em 1em 0em;
-	font-weight: 400;
+	border-top: 3px #323031 solid;
+	border-bottom: 3px #323031 solid;
 }
 
 h5 {
@@ -102,7 +105,7 @@ a.home:hover {
 }
 
 a.button {
-	font-family: 'Droid Serif', serif;
+	font-family: 'Open Sans', serif;
 	font-size: 1.2em;
 	padding: 10px;
 	width: 200px;
@@ -152,55 +155,6 @@ ul {
 li {
 	margin: 1em 0em;
 	color: #323031;
-}
-
-li.book {
-   background:url('/static/images/book-icon.png') 0% 0% no-repeat no-repeat;
-   padding-left: 40px;
-   line-height: 32px;
-   margin: 20px 0px;
-}
-
-li.blog {
-   background:url('/static/images/article-icon.png') 0% 0% no-repeat no-repeat;
-   padding-left: 40px;
-   line-height: 32px;
-   margin: 20px 0px;
-}
-
-li.video {
-   background:url('/static/images/video-icon.png') 0% 0% no-repeat no-repeat;
-   padding-left: 40px;
-   line-height: 32px;
-   margin: 20px 0px;
-}
-
-li.podcast {
-   background:url('/static/images/headphones-icon.png') 0% 0% no-repeat no-repeat;
-   padding-left: 40px;
-   line-height: 32px;
-   margin: 20px 0px;
-}
-
-figure {
-	margin: 0px;
-	padding: 1em 0em 1em 0em;
-}
-
-figcaption {
-	font-size: 0.85em;
-}
-
-span.spacer {
-	padding: 0em 0.5em;
-}
-
-iframe {
-	border:1px solid #CCC;
-	border-width:1px;
-	margin-bottom:0.25em;
-	height: 27em;
-	width: 100%;
 }
 
 .center {

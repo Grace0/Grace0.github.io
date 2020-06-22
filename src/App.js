@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route, NavLink } from 'react-router-dom';
 import './App.css';
-import './unsemantic-grid.css'
 import Quotes from './components/Quotes';
 import Rundown from './components/Rundown';
 import Plans from './components/Plans';
@@ -15,9 +14,9 @@ class App extends Component {
       <header className="App-header">
 
       <main class="grid-container home">
-       <h1> Hello there! I'm Grace, a first-year Electrical Engineering student at UCLA. I'm eager to demystify the theories behind hardware and build products with a high social impact. Here's my'
+       <h1> Hello there! I'm Grace, a first-year Electrical Engineering student at UCLA. I'm eagerly demystifying the theories behind hardware and actively exploring careers in social good. Here's my'
           <NavLink to='/quotes' className="quotes"> resume </NavLink> and
-          <NavLink to='/rundown' className="rundown"> portfolio</NavLink>, as well as a snapshot of my current
+          <NavLink to='/rundown' className="rundown"> portfolio</NavLink>, as well as a snapshot of my personal and professional
           <NavLink to='/plans' className="plans"> aspirations</NavLink>. </h1>
       </main>
 
@@ -29,7 +28,7 @@ class App extends Component {
       <Route path='/plans' component={Plans}/>
       <Route path='/home' component={Homepage}/>
       </Switch>
-      <Footer />
+
       </div>
     );
   }
