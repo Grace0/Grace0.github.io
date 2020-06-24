@@ -72,8 +72,7 @@ h1 a:hover, h5 a:hover {
 }
 
 .nav-home {
-  border-top: 3px #99999c solid;
-  border-bottom: 3px #99999c solid;
+  color: #323031;
 }
 
 .nav-resume:hover, .nav-resume:active {

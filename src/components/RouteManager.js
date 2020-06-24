@@ -19,7 +19,7 @@ function RouteManager() {
         </h5>
         <h5>
           <a>
-            <NavLink to="/resume" className="nav-resume">
+            <NavLink to="/resume" className="resume">
               {" "}
               resume{" "}
             </NavLink>
@@ -27,7 +27,7 @@ function RouteManager() {
         </h5>
         <h5>
           <a className="portfolio">
-            <NavLink to="/portfolio" className="nav-portfolio">
+            <NavLink to="/portfolio" className="portfolio">
               {" "}
               portfolio{" "}
             </NavLink>
@@ -35,7 +35,7 @@ function RouteManager() {
         </h5>
         <h5>
           <a className="aspirations">
-            <NavLink to="/Aspirations" className="nav-aspirations">
+            <NavLink to="/Aspirations" className="aspirations">
               {" "}
               aspirations{" "}
             </NavLink>
