@@ -1,12 +1,12 @@
-import React, { Component } from 'react';
+import React, {Component} from "react";
 
 class Aspirations extends Component {
   render() {
     return (
       <div>
-      <p> Aspirations </p>
+        <p> Aspirations </p>
       </div>
-    )
+    );
   }
 }
 
