@@ -8,7 +8,7 @@ function Homepage() {
         <main className="grid-container home">
           <h1>
             {" "}
-            Hello there. I'm Grace, a first-year Electrical Engineering student
+            Hello there! I'm Grace, a first-year Electrical Engineering student
             at UCLA. I'm tinkering with hardware and advancing social change.
             Here is my{" "}
             <NavLink to="/resume" className="resume">
@@ -18,7 +18,7 @@ function Homepage() {
             <NavLink to="/portfolio" className="portfolio">
               portfolio
             </NavLink>
-            , as well as a snapshot of my personal and professional{" "}
+            , as well as a list of my big-picture{" "}
             <NavLink to="/aspirations" className="aspirations">
               aspirations
             </NavLink>

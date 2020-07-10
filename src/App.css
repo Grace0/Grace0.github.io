@@ -39,6 +39,15 @@ main.home h1 {
   border-bottom: 3px #323031 solid;
 }
 
+main.home h5 {
+
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
 h5 {
   display: inline-block;
   font-size: 1.8em;
@@ -75,7 +84,7 @@ h1 a:hover, h5 a:hover {
   color: #323031;
 }
 
-.nav-resume:hover, .nav-resume:active {
+.nav-resume:active {
   color: #168ADE;
 }
 
@@ -117,10 +126,22 @@ li {
   color: #168ADE;
 }
 
+.resume:active, .resume:focus {
+  border-bottom: 3px solid;
+}
+
 .portfolio {
   color: #9C93DE;
 }
 
+.portfolio:active, .portfolio:focus {
+  border-bottom: 3px solid;
+}
+
 .aspirations {
   color: #FF6764;
+}
+
+.aspirations:active, .aspirations:focus {
+  border-bottom: 3px solid;
 }

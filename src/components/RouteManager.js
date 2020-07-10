@@ -8,7 +8,7 @@ import Aspirations from "./Aspirations";
 function RouteManager() {
   return (
     <div>
-      <main className="grid-container">
+      <main className="grid-container home flex-center">
         <h5>
           <a>
             <NavLink to="/" className="nav-home">
