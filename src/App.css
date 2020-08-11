@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
 
 .grid-container {
   margin-left: auto;
@@ -14,14 +14,14 @@ main {
 
 body {
   background-color: #F5F5F9;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 300;
   line-height: 1.5em;
   font-size: 14px;
 }
 
 h1, h2, h3 {
-  font-family: 'Open Sans', serif;
+  font-family: 'Roboto', serif;
   letter-spacing: 0.5px;
   font-weight: normal;
 }
@@ -35,8 +35,12 @@ main.home h1 {
   position: absolute;
   top: 30%;
   width: 60%;
-  border-top: 3px #323031 solid;
-  border-bottom: 3px #323031 solid;
+  border-top: 0px #323031 solid;
+  border-bottom: 0px #323031 solid;
+}
+
+.title {
+  font-size: large;
 }
 
 main.home h5 {
@@ -56,8 +60,9 @@ h5 {
 }
 
 p {
-  margin-bottom: 0.2em;
+  margin-bottom: 0.5em;
   margin-top: 0.2em;
+  font-size: 2.2em;
 }
 
 strong {
@@ -123,7 +128,7 @@ li {
 }
 
 .resume {
-  color: #168ADE;
+  color: #445bd4;
 }
 
 .resume:active, .resume:focus {
@@ -131,7 +136,7 @@ li {
 }
 
 .portfolio {
-  color: #9C93DE;
+  color: #f4bf7f;
 }
 
 .portfolio:active, .portfolio:focus {
